@@ -12,14 +12,14 @@
     <!--Шапка-->
     <header class="page-header">
             <div class="container header">
-                <nav>
+                <nav class="nav">
                     <a href="./index.html" class="logo">
                     <span class="web">Web</span> Studio 
                     </a>
 
                     <ul class="site-nav">
                         <li>
-                            <a class="link" href="" class="current">Студия</a>
+                            <a class="link current" href="" >Студия</a>
                         </li>
                         <li>
                             <a class="link" href="./portfolio.html">Портфолио</a>
@@ -133,7 +133,7 @@
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
          
-                <ul>
+                <ul class="command-member">
                     <li>
                         <img src="./images/nik.jpg"
                         alt="фотография" 
@@ -256,26 +256,29 @@
     
     <!--Футер-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer">
+            <div>
             <a href="./index.html" class="logo">
                 <span class="web">Web</span> 
                 <span class="studio">Studio</span> 
             </a>
             <address class="address">
                 г. Киев, пр-т Леси Украинки, 26
-                <ul class="contacts">
-                    <li>
+                <ul class="address item">
+                    <li class="contacts footer">
                         <a href="mailto:info@example.com">
                             info@example.com
                         </a>
                     </li>
-                    <li>
+                    <li class="contacts footer">
                         <a href="tel:+380961111111">
                             +38 096 111 11 11
                         </a>
                     </li>
                 </ul>
             </address>
+        </div>
+        <div class="join">
             <b class="slogan">присоединяйтесь</b>
             <ul>
                 <li>
@@ -291,6 +294,7 @@
                     <a href="" aria-label="Linkedin"></a>
                 </li>
             </ul>
+        </div>
         </div>
     </footer>
 </body>
