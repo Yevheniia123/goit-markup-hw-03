@@ -50,8 +50,8 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* шапка */
@@ -374,7 +374,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     
-    min-width: 1200px;
+     width: 1170px; 
     padding-bottom: 94px;
 }
 .portfolio-item {
@@ -385,6 +385,6 @@ button:focus {
 .portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
-.portfolio-itemt:nth-child(3n) {
+.portfolio-item:nth-child(3n) {
     margin-right: 0;
 }
